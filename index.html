@@ -81,16 +81,20 @@
     </style>
 </head>
 <body>
+    <audio autoplay loop>
+        <source src="./yodgor-mirzajonov-toylar-muborak_(uzhits.net).mp3" type="audio/mpeg">
+        Sizning brauzeringiz audio tegini qo'llab-quvvatlamaydi.
+    </audio>
     <script>
         let userName = prompt("Ismingizni kiriting:");
         document.body.innerHTML = `
             <div class="invitation-box">
                 <h1>Assalomu Alaykum</h1>
                 <p>Hurmatli ${userName},</p>
-                <p>Sizlarni Farxot otamizni 60 yosh yubileyi hamda farzandimiz Muxamadalining xatna to‘yi munosabati bilan 2025-yil 19-aprel kuni soat 14:00 da yoziladigan dasturxonimizga taklif etamiz.</p>
+                <p>Sizlarni Farxod otamizni 60 yosh yubileyi hamda farzandimiz Muxamadalining xatna to‘yi munosabati bilan 2025-yil 19-aprel kuni soat 13:00 da yoziladigan dasturxonimizga taklif etamiz.</p>
                 <p>Hurmat va ehtirom ila:<br>Obilov Farxod aka oilasi</p>
-                <p>Manzil: Qoshrabot shahri, Diyora to‘yxonasi</p>
-                <button class="button" onclick="openMap()">Boraman</button>
+                <p>Manzil: Qoshrabot Tumani, Diyora to‘yxonasi</p>
+                <button class="button" onclick="openMap()">Lokatsiya</button>
             </div>
         `;
         function openMap() {
